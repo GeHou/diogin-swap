@@ -1,0 +1,11 @@
+DirectoryIndex index.php
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.*)$ index.php [L]
+
+#<FilesMatch "\.(css|js|gif|jpe?g|png|bmp|swf|ico|cur|mp3|flv)$">
+#    Header unset Last-Modified
+#    Header unset Vary
+#    Header set Cache-Control max-age=2592000
+#</FilesMatch>

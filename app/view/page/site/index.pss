@@ -1,0 +1,9 @@
+#page{
+    width:960px;
+    height:400px;
+    margin:0 auto;
+    background:#ca8;
+}
+#page h2 {
+    background: #a8c;
+}

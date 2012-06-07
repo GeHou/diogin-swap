@@ -1,0 +1,9 @@
+.block_header {
+    margin:0 auto;
+}
+#layout_html{
+    margin:0 auto;
+}
+.block_footer{
+    margin:0 auto;
+}

@@ -1,0 +1,6 @@
+#page{
+    width:960px;
+    height:400px;
+    margin:0 auto;
+    background:#ca8;
+}

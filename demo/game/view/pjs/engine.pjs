@@ -1,0 +1,5 @@
+var engine = {
+    run: function() {
+        document.getElementById('page_index').innerHTML = 'game is running';
+    }
+};
