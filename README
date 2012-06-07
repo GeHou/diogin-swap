@@ -1,0 +1,52 @@
+欢迎使用
+========
+
+    欢迎使用 Swap Web 应用开发框架。
+
+授权协议
+========
+
+    见 “LICENSE” 文件。
+
+目录结构
+========
+
+    app/        - 基于 Swap 的 Web 应用
+    demo/       - 基于 Swap 的样例 Web 应用
+    doc/        - 框架的各类文档
+    .hgignore   - Mercurial ignore 说明文件
+    .hgtags     - Mercurial tags 标签文件
+    AUTHOR      - 框架的开发人员
+    CHANGE      - 框架的变更历史
+    LICENSE     - 框架的授权协议
+    README      - 本说明文件
+
+快速运行
+========
+
+    1、确保 PHP 版本 >= 5.3.0；
+    2、Apache 启用 rewrite 模块和 .htaccess（如果是 nginx，请参考 app/web/.nginx 设置 URL 重写）；
+    3、将下载下来的框架发布包（通常是 swap-x.y.z.tar.gz 或 swap-x.y.z.zip）解压到 Web 应用根目录下；
+    4、打开浏览器，访问解压出来的框架代码对应的目录，例如：http://localhost/swap-x.y.z/demo/hello/web/
+
+使用框架
+========
+
+    1、将 app/ 目录下的所有东西拷贝到你的工作目录，同时把 Web 服务器的根目录指向该目录下的 web/ 目录；
+    2、打开浏览器，访问该 Web 应用；
+    3、编码实现你的 Web 应用。
+
+样例应用
+========
+
+    浏览 demo/ 目录下的样例 Web 应用。这些 Web 应用都很简单，很容易熟悉，建议在使用框架的过程中参考。
+
+学习框架
+========
+
+    见 doc 目录。
+
+社区反馈
+========
+
+    请访问：http://www.swapframework.org/
